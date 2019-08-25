@@ -19,7 +19,7 @@ from telethon.sessions import StringSession
 load_dotenv("config.env")
 
 # Logger setup:
-CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", False ))
+CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
 
 
 if CONSOLE_LOGGER_VERBOSE:
